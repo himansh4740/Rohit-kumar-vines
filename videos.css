@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Baloo+Tamma+2&family=Bebas+Neue&family=Open+Sans:wght@300&family=PT+Sans&family=Poppins:wght@100;400;500&family=Roboto+Slab&family=Source+Sans+Pro&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    color: white;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-color: #6e72fc;
+background-image: linear-gradient(315deg, #6e72fc 0%, #ad1deb 74%);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+
+    
+}
+.navbar ul{
+    height: 100%;
+    display: flex;
+   justify-content: center;
+    align-items: center; 
+}
+.item{
+    margin: 0 34px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 50px;
+}
+
+#item-2{
+    border-bottom: 2px solid white;
+}
+.item a{
+    color: white;
+}
+h2{
+    position: absolute;
+    top: 99px;
+    left: 54px;
+}
+iframe{
+    width: 278px;
+    height: 155px;
+    margin: 20px 16px;
+    margin-left: 42px;
+    margin-top: -66px;
+}
